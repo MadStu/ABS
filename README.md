@@ -34,7 +34,7 @@ Login in to your server with PuTTY using the IP address. Your username will be "
 Now, update your server and install some dependencies by copying the follwing code:
 
 ```
-wget -O sabs.sh http://dl.madstu.net/sabs.sh && sh sabs.sh
+wget -O sabs.sh https://raw.githubusercontent.com/MadStu/ABS/master/sabs.sh && sh sabs.sh
 ```
 
 Paste into the putty window by right clicking with your mouse.
@@ -61,7 +61,7 @@ Now log back in using the same IP address, but with the username "absuser" and t
 Copy and paste the following into the command line. Enter your absuser password if asked and let it run. It may take a while.
 
 ```
-wget -O abs.sh http://dl.madstu.net/abs.sh && sh abs.sh
+wget -O abs.sh https://raw.githubusercontent.com/MadStu/ABS/master/abs.sh && sh abs.sh
 ```
 
 At the end it'll tell you your masternode key which you'll need to copy and paste into your windows wallet masternode configuration file.
