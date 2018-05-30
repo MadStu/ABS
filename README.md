@@ -2,8 +2,6 @@
 A novices guide to an Ubuntu 16.04 install
 
 ***
-See bottom of page for update instructions
-***
 
 ## 1. Send 1000 coins to yourself.
 
