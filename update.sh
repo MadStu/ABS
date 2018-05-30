@@ -18,3 +18,5 @@ absoluted -daemon
 echo " "
 echo "  - Now Start-Alias in your windows wallet"
 echo " "
+echo "    Thanks for using MadStu's update script :)"
+echo " "
