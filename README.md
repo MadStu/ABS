@@ -15,7 +15,7 @@ We now need to **wait** for 15 confirmations of the transaction so we'll get on 
 
 ## 2. VPS
 
-Order a VPS. A VPS with 1GB RAM works great for me, although some users report it working fine with 512MB and a swap file (Step 5). Choosing the Ubuntu 16.04 (server version without a desktop) operating system to install on it would be ideal.
+Order a VPS. A VPS with 1GB RAM works great for me, although some users report it working fine with 512MB and a swap file. Choosing the Ubuntu 16.04 (server version without a desktop) operating system to install on it would be ideal.
 A tried and tested place to get a VPS is from: https://goo.gl/hv2Hfc 
 
 
