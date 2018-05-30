@@ -16,10 +16,10 @@ sudo apt-get install jq pwgen -y
 #rm -rf abs*
 #rm -rf .abs*
 
-wget https://github.com/absolute-community/absolute/releases/download/12.2.1/absolute_12.2.1_linux.tar.gz
-tar -zxvf absolute_12.2.1_linux.tar.gz
-mv absolute_12.2.1_linux ~/absolute
-rm absolute_12.2.1_linux.tar.gz
+wget https://github.com/absolute-community/absolute/releases/download/12.2.2/absolute_12.2.2_linux.tar.gz
+tar -zxvf absolute_12.2.2_linux.tar.gz
+mv absolute_12.2.2_linux ~/absolute
+rm absolute_12.2.2_linux.tar.gz
 
 mkdir ~/.absolutecore
 RPCU=$(pwgen -1 4 -n)
