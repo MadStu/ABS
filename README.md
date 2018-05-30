@@ -115,7 +115,7 @@ Once you see it says AssetID: 999 and you have the 15 confirmations THEN you can
 
 Start it by going to the masternode tab, right clicking on your masternode and choosing to "Start Alias".
 
-It can take up 30 minutes or more before you see the status change to ENABLED.
+It can take up to 30 minutes or more before you see the status change to ENABLED.
 
 
 
