@@ -2,6 +2,8 @@
 A novices guide to an Ubuntu 16.04 install
 
 ***
+See bottom of page for update instructions
+***
 
 ## 1. Send 1000 coins to yourself.
 
@@ -174,7 +176,16 @@ Use this command again and wait until it returns AssetID: 999
 Now Start Alias again in the windows wallet and wait another hour or so for the status to change. 
 
 
+## UPDATE Your Masternode
 
+To update your server software with the lastest version, please copy and paste the following command:
+
+```
+wget https://raw.githubusercontent.com/MadStu/ABS/master/update.sh
+chmod 777 update.sh
+sed -i -e 's/\r$//' update.sh
+./update.sh
+```
 
 # Donations
 
