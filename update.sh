@@ -14,3 +14,7 @@ sudo ln -s $PWD/Absolute/absolute-cli /usr/local/bin/absolute-cli
 sudo ln -s $PWD/Absolute/absoluted /usr/local/bin/absoluted
 
 absoluted -daemon
+
+echo " "
+echo "  - Now Start-Alias in your windows wallet"
+echo " "
