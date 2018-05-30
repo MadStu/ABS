@@ -115,7 +115,7 @@ Once you see it says AssetID: 999 and you have the 15 confirmations THEN you can
 
 Start it by going to the masternode tab, right clicking on your masternode and choosing to "Start Alias".
 
-It can take 30 minutes to an hour or more before you see the status change from WATCHDOG_EXPIRED to ENABLED.
+It can take up 30 minutes or more before you see the status change to ENABLED.
 
 
 
