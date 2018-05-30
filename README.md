@@ -108,7 +108,7 @@ WAIT until the script has finished running. In the end you'll see AssetID: 999
 After the script has finished running, you can verify this yourself by typing:
 
 ```
-~/absolute/absolute-cli mnsync status
+absolute-cli mnsync status
 ```
 
 Once you see it says AssetID: 999 and you have the 15 confirmations THEN you can Start Alias on your windows wallet.
@@ -144,13 +144,13 @@ listen=0
 Then restart the absolute daemon:
 
 ```
-~/absolute/absolute-cli stop
+absolute-cli stop
 ```
 
 Wait 60 seconds...
 
 ```
-~/absolute/absoluted -daemon
+absoluted -daemon
 ```
 
 
@@ -168,7 +168,7 @@ sed -i -e 's/\r$//' newfixsentinel.sh
 Use this command again and wait until it returns AssetID: 999
 
 ```
-~/absolute/absolute-cli mnsync status
+absolute-cli mnsync status
 ```
 
 Now Start Alias again in the windows wallet and wait another hour or so for the status to change. 
