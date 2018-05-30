@@ -7,10 +7,10 @@ tar -zxvf absolute_12.2.2_linux.tar.gz
 mv absolute_12.2.2_linux ~/Absolute
 rm absolute_12.2.2_linux.tar.gz
 
-rm -rf /usr/local/bin/absolute-cli
-rm -rf /usr/local/bin/absoluted
+sudo rm -rf /usr/local/bin/absolute-cli
+sudo rm -rf /usr/local/bin/absoluted
 
-ln -s $PWD/Absolute/absolute-cli /usr/local/bin/absolute-cli
-ln -s $PWD/Absolute/absoluted /usr/local/bin/absoluted
+sudo ln -s $PWD/Absolute/absolute-cli /usr/local/bin/absolute-cli
+sudo ln -s $PWD/Absolute/absoluted /usr/local/bin/absoluted
 
 absoluted -daemon

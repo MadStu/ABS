@@ -21,8 +21,8 @@ tar -zxvf absolute_12.2.2_linux.tar.gz
 mv absolute_12.2.2_linux ~/Absolute
 rm absolute_12.2.2_linux.tar.gz
 
-ln -s $PWD/Absolute/absolute-cli /usr/local/bin/absolute-cli
-ln -s $PWD/Absolute/absoluted /usr/local/bin/absoluted
+sudo ln -s $PWD/Absolute/absolute-cli /usr/local/bin/absolute-cli
+sudo ln -s $PWD/Absolute/absoluted /usr/local/bin/absoluted
 
 mkdir ~/.absolutecore
 RPCU=$(pwgen -1 4 -n)
