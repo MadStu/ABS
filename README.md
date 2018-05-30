@@ -31,7 +31,7 @@ If you haven't got any SSH client installed already, please download and run PuT
 Your VPS provider will give you an IP address and a root password for your new server.
 Login in to your server with PuTTY using the IP address. Your username will be "root" and the password is the root password.
 
-Now, update your server and install some dependencies by copying the follwing code:
+Now, update your server and install some dependencies by copying the following code:
 
 ```
 wget -O sabs.sh https://raw.githubusercontent.com/MadStu/ABS/master/sabs.sh && sh sabs.sh
