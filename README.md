@@ -6,7 +6,7 @@ A novices guide to an Ubuntu 16.04 install
 ## 1. Send 1000 coins to yourself.
 
 If you haven't done so already, install the windows wallet from https://github.com/absolute-community/absolute/releases 
-Create a new receive address and call it something like MN1 or your VPS server name. A novices guide to an Ubuntu 16.04 install
+Create a new receive address and call it something like MN1 or your VPS server name.
 
 Then send 1000 ABS coins to the address you just created. Make sure the address receives EXACTLY 1000 coins, so DO NOT tick the "Subtract fee from amount" option.
 We now need to **wait** for 15 confirmations of the transaction so we'll get on with the remote VPS install.
