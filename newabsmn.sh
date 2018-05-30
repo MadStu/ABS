@@ -16,7 +16,7 @@ sudo apt-get install bc jq pwgen -y
 #rm -rf abs*
 #rm -rf .abs*
 
-wget https://github.com/absolute-community/absolute/releases/download/12.2.1/absolute_12.2.2_linux.tar.gz
+wget https://github.com/absolute-community/absolute/releases/download/12.2.2/absolute_12.2.2_linux.tar.gz
 tar -zxvf absolute_12.2.2_linux.tar.gz
 mv absolute_12.2.2_linux ~/Absolute
 rm absolute_12.2.2_linux.tar.gz
